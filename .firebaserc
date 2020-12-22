@@ -1,5 +1,14 @@
 {
   "projects": {
     "default": "youplaza-186ab"
+  },
+  "targets": {
+    "youplaza-186ab": {
+      "hosting": {
+        "youplaza": [
+          "youplaza"
+        ]
+      }
+    }
   }
 }

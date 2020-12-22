@@ -1,3 +1,7 @@
-<h1>
-    funciona</h1>
+<header class="sticky-top">
+    <div class="d-flex justify-content-between ">
+        <h4 class="text-success ml-1" *ngIf="muser()">{{ muser() }}</h4>
+        <span class="text-success mt-1 mr-2" (click)="logout()" *ngIf="muser()"> Salir </span>
+    </div>
+</header>
 <router-outlet></router-outlet>
